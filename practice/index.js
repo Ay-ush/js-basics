@@ -46,3 +46,32 @@ const user1 = ({ data, search }) =>
 console.log(user1({ data: users, search: "ra" }));
 
 //immutable JS
+
+const source = [{ name: "raktim" }, { name: "ram" }, { name: "rita" }];
+
+const [a, ...rest] = source;
+
+//map,reduce,some,every,filter,find
+
+//foreach,delete,replace
+
+//date
+const d = new Date();
+console.log(d);
+
+//crud
+
+const oldDate = new Date("2012-02-11");
+console.log({ oldDate });
+
+//read
+console.log(oldDate.getMonth());
+console.log(oldDate.getDay());
+
+//update
+console.log(oldDate.setMonth(3));
+console.log({ oldDate });
+
+//timezone
+console.log(oldDate.toISOString());
+console.log(new Date("2024-04-07T12:36:04.%42+00:00").toLocaleString());
