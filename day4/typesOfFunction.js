@@ -107,6 +107,10 @@ const sayHello = () => {
   console.log("hey");
 })();
 
+(()=>{
+  console.log("Brooooooo");
+})();
+
 //closure gives you access to an outer function's scope from an inner function
 const getMyVars = () => {
   return {
