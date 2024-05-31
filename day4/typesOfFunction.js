@@ -98,7 +98,7 @@ const sayHello = () => {
 
 //IIFEs
 //immediately invoked functional expression
-//DevOps(Script Run,)
+//DevOps(Script immediately Run,)
 
 (function () {
   console.log("hei");
