@@ -121,7 +121,7 @@ const getMyVars = () => {
 console.log(getMyVars());
 //packages nodejs(dot env)
 
-//Pure Function(you can always expect same answer)
+//Pure Function(you can always expect same answer)(result doesnot change)
 
 //Callback Function(one function finish execute then another function wants to call 1st ones function)
 
